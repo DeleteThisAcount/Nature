@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Phone</title>
+      <link rel = "stylesheet" type = "text/css" href = "main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.2/sweetalert2.all.min.js"></script>
+</head>
+<body>
+  <center>
+<h1 id="test">Phone</h1>
+
+<img src="assets/phoneplug.png"/onclick="myFunction()" id="imageid">
+  <h4 id="white">Unplug devices while you're not using them <br>
+<a id="blacklink" href="3.html">Next Page</a></h4>
+<p id="nextpagearea"></p>
+ <script>
+ function myFunction() {
+
+document.getElementById("imageid").src="/assets/phoneunplug.png"
+document.getElementById("blacklink").style.color = "black"
+ document.getElementById("white").style.color = "black";
+  console.log ('Done 2')
+  swal("Unplug devices while you're not using them")
+ }
+
+</script>
+</body>
+</html>

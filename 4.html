@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Plant a Tree</title>
+      <link rel = "stylesheet" type = "text/css" href = "main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.2/sweetalert2.all.min.js"></script>
+</head>
+<body>
+  <center>
+<h1 id="test">Plant a Tree</h1>
+
+<img src="assets/seed.png"/onclick="myFunction()" id="imageid">
+  <h4 id="white">Planting a tree is good for the enviroment <br>
+<a id="blacklink" href="5.html">Next Page</a></h4>
+<p id="nextpagearea"></p>
+ <script>
+ function myFunction() {
+
+document.getElementById("imageid").src="/assets/tree.png"
+document.getElementById("blacklink").style.color = "black"
+ document.getElementById("white").style.color = "black";
+ console.log ('Done 4')
+   swal("Planting a tree is good for the enviroment")
+ }
+
+</script>
+</body>
+</html>
